@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div>p{
+            display: none;
+            
+        }
+        div:hover >p{
+            display: block;
+            background-color: blue;
+            font-size: 20px;
+            color: white;
+            
+
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{   /* link já visitados vão aplicar a formatação*/
+            color:brown
+        }
+        a:active{
+            color:yellow /*estado de clicar com o mouse (ativo)*/
+        }
+        a::after{    /*coloca algp apos o seletor*/
+            content:'  [Link]';
+            font-weight: normal; 
+            color: rgb(197, 69, 69);
+             
+        }
+        a:hover{ /*estado de passar o mouse por cima*/
+            text-decoration: underline;
+            color: black;
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    <p>Click em baixo para ver o menu</p>
+    <div>Menu<p>Loja<br></p><p>Assistencia</p></div>
+    <p>Fim</p>
+    <h1>Radio favoritas</h1>
+    <ul>
+        <li><a href="https://mundolivrefm.com.br/" target="_blank" rel="external">Radio mundo livre</a></li>
+        <li><a href="https://www.antena1.com.br/ouvir-radio-online" target="_blank" rel="external">Rádio antena 1</a></li>
+        <li><a href="https://radiosaovivo.net/91-rock-curitiba/" target="_blank" rel="external">Radio Rock91</a></li>
+    </ul>
+    
+</body>
+</html>

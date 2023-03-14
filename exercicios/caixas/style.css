@@ -1,0 +1,56 @@
+
+@charset "UTF-8";
+
+
+ body{
+            background-color: #da837e;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            header{
+                background-color: white;
+                margin: 10px;
+                padding-top: 3px;
+                padding-right: 5px;
+
+                padding-bottom: 3px;
+                padding-left: 5px;
+            }
+            section{
+                background-color: white;
+                margin: 10px;
+            }
+            h1{
+                color:#DE81D0;
+                text-align: center;
+                margin: 5px;
+            }
+            a{
+                text-decoration: none;
+                color:#d8a6d1;
+                
+           
+
+            }    
+            
+            h2{
+                color:#DE8581;
+                
+            }
+            article{
+                padding: 10px;
+                background-color: #da837e56 ;
+                border: 2px solid black;
+                
+                
+            }
+            aside{
+                margin: 0px;
+                background-color: #8a5350;
+                color: white;
+            }
+            footer{
+                margin: 10px;
+                background-color: #8a5350;
+                color: white;
+
+            }
