@@ -41,6 +41,7 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     background-image: -moz-linear-gradient(to botton ,--cor1 --cor3);
+    padding-bottom: 20px;
 }   
  header > h1{
     font-family:var(--font_destaque1); /* cor de H1 dentro de header*/
@@ -56,6 +57,7 @@ header{
 header > p{
     text-align: center; /* confugura Paragrafo cenyralizado dentro de header*/
     font-weight: 600;
+    
 
 
 }    
@@ -91,7 +93,7 @@ a:hover{
 
 body{
     font-family: var(--font_principal);
-    background-color: #53eb88c7;
+    background-color: white;
 }
 
 main{
