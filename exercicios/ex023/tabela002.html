@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grandes</title>
     <style>
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            text-align: center;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        
+
+        }   
+        
         table{
             width: 500px;
             border-collapse: collapse;
@@ -30,12 +42,14 @@
 </head>
 <body>
     <h1>População dos Estados Brasileiros</h1>
+
+    <caption style="text-align: center;">População dos Estados Federativos</caption>
     <table>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col" style="width: 30px;">Posição</th>
+                <th scope="col" style="width: 200px;">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
             
         </thead>
@@ -183,7 +197,7 @@
         <tfoot>
             <tr>
                 <td></td>
-                <th>Total</th>
+                <th scope="row">Total</th>
             <td class="number">50000000</td>
 
             </tr>
