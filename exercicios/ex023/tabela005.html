@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            color: black;
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            margin: auto;
+
+        }
+        thead{
+            background-color: rgb(58, 55, 55);
+            color: white;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .titulo{
+            background-color: gray;
+            color: white;
+        }
+        caption{
+            text-align: center;
+        }
+        div#container{
+            overflow-x: auto; /*deixa a tabela responsiva*/
+        }
+        col.col6{
+            background-color: red;
+        }
+        col.col12{
+            background-color: green;
+        }
+        
+</style>
+</head>
+<body>
+    <h1>Vendas dos produtos anuais</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, provident! Cum autem veniam voluptates totam, magni voluptatum cupiditate suscipit earum, nisi, odio nobis sunt doloribus illum distinctio? Quae, cumque placeat.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam minus blanditiis ipsam accusantium totam asperiores delectus, quod expedita error aliquid sapiente odit dolorum laboriosam officia incidunt harum sed unde nemo!</p>
+
+    <caption>Planilha de vendas de Produtos</caption>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col class="col6"> 
+                <!--Configurando CSS em uma coluna inteira-->
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col class="col12"><!--Configurando CSS em uma coluna inteira-->
+
+            </colgroup>
+            <thead>
+                <tr>
+                    <th  scope="col">Produtos</th>
+                    <th scope="col">Janeiro</th>
+                    <th scope="col">Fevereiro</th>
+                    <th scope="col">Março</th>
+                    <th scope="col">Abril</th>
+                    <th scope="col">Maio</th>
+                    <th scope="col">Junho</th>
+                    <th scope="col">Julho</th>
+                    <th scope="col">Agosto</th>
+                    <th scope="col">Setembro</th>
+                    <th>Outubro</th>
+                    <th scope="col">Novembro</th>
+                    <th scope="col">Dezembro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Playstation 4</th>
+                    <td> 25</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>15</td>
+                    <td>8</td>
+                    <td>33</td>
+                    <td>17</td>
+                    <td>20</td>
+                    <td>18</td>
+                    <td>12</td>
+                    <td>27</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <th> Nintendo Wi</th>
+                    <td> 22</td>
+                    <td>32</td>
+                    <td>30</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>31</td>
+                    <td>22</td>
+                    <td>27</td>
+                    <td>14</td>
+                    <td>12</td>
+                    <td>29</td>
+                    <td>47</td>
+                </tr>
+                <tr>
+                    <th scope="row">X-Box</th>
+                    <td> 15</td>
+                    <td>22</td>
+                    <td>15</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>21</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>24</td>
+                    <td>35</td>
+                </tr>
+                <th>Iphone</th>
+                <td> 35</td>
+                <td>32</td>
+                <td>35</td>
+                <td>20</td>
+                <td>18</td>
+                <td>31</td>
+                <td>22</td>
+                <td>27</td>
+                <td>28</td>
+                <td>27</td>
+                <td>44</td>
+                <td>75</td>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
