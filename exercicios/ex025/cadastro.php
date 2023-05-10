@@ -1,0 +1,1 @@
+Se quiser aprender como funciona a parte de backend faça um curso de PHP.
