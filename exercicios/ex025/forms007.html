@@ -14,6 +14,7 @@
                 <label for="iestado">Estado</label>
                 
                     <select>
+                        <option value="" selected>---Click aqui--</option>
                         <optgroup label="Região Sul">
                             <option value="RS">Rio Grande do Sul</option>
                             <option value="PR">Paraná</option>
@@ -40,12 +41,17 @@
             </p>
                           <p>
                             <label for="iprof">Profissão</label>
-                            <input type="text" name="prof" id="iprof" list="lstprof">
-                            <datalist>
+                            <input type="text" name="prof" id="iprof" list="lstprof" placeholder="--Digite a Profissão">
+                            <datalist id="lstprof"> <!-- datalist permite listar dentro de um input text, e ao colocar a id"lstprof ele busca o a lista pronta e adiciona a Lista o conteuno escrito-->
+                                
                                 <option >Consultor</option>
                                 <option >Proframador Junior</option>
                                 <option value="Medico"></option>
                             </datalist>
+                          </p>
+                          <p>
+                            <label for="imsn">Mensagem</label> <br>
+                            <textarea name="msn" id="imsn" cols="30" rows="10"></textarea>
                           </p>
 
                           <input type="submit" value="Cadastrar">
