@@ -1,0 +1,15 @@
+@charset "UTF-08";
+
+/* modea Query para telas*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+article{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
