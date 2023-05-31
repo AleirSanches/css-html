@@ -5,3 +5,73 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body, html{
+    background-color: rgb(182, 182, 231);
+}
+
+header{
+    background-color: rgb(53, 53, 182);
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+menu{
+    margin-top: 10px;
+}
+
+header > menu {
+
+    display: block;
+
+}
+
+
+
+header > menu > ul > li > a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-top: solid black 1px;
+    text-align: center;
+   
+    
+    
+}
+
+header > menu > ul > li > a:hover{
+    background-color: rgb(159, 159, 190);
+}
+
+main{
+    width: 80vw;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+main > article {
+    padding: 10px;
+    
+
+}
+
+main > article > h2{
+    padding:20px;
+    
+    
+}
+
+ main p {
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 20px;
+
+
+}
+
