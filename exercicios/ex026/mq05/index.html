@@ -7,8 +7,9 @@
     <title>Medias queries</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/mideas_queries.css">
 </head>
-<body>
+<body onresize="changeSize()">
     <header>
         <h1>Meu Site</h1>
         <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
@@ -41,6 +42,17 @@
             }
            
 
+        }
+        function changeSize(){
+           if( window.innerWidth >= 768){
+               itens.style.display= 'block'
+
+           } else {
+            itens.style.display= 'none'
+
+           }
+
+            
         }
     </script>
     
